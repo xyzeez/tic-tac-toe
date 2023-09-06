@@ -1,0 +1,33 @@
+.data {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+.board {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 20rem;
+    border: 1px solid red;
+}
+
+.box {
+    width: 6rem;
+    aspect-ratio: 1/1;
+    border: 1px solid black;
+}
+
+.control-x {
+    background-image: url(./x.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.control-o {
+    background-image: url(./o.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
